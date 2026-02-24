@@ -145,11 +145,12 @@ label {
   font-size: 15px;
   background-color: green;
   border-radius: 10px;
-}
-.contact-section button:active{
-  border:5px solid black; 
+  
 }
 
+.contact-section button:active{
+  transform:scale(0.9);
+}
 
 
 .main-footer {
