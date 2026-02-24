@@ -42,12 +42,20 @@ color:black;
   width: 200px;
   height: 60px;
 }
+
+.nav-bar img:hover{
+  transform:scale(1.1);
+}
 .second-box {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   padding: 0 10px 0 0;
+}
+
+.second-box a:hover{
+  transform:scale(1.1);
 }
 
 .nav-bar input,
@@ -69,6 +77,9 @@ label {
   width: 70%;
   height: 70%;
   border-radius: 10px;
+}
+.hero_section img:hover{
+  transform:scale(1.1);
 }
 
 .service-section {
@@ -103,6 +114,9 @@ label {
   display: grid;
   place-items: center;
 }
+.service-section div:hover{
+  transform:scale(1.01);
+}
 
 .contact-section #fd {
   background-color: rgb(207, 201, 201);
@@ -125,6 +139,9 @@ label {
   gap: 20px;
 }
 
+.contact-section h3:hover{
+  transform:scale(1.1);
+}
 .contact-section input {
   width: 600px;
   height: 50px;
@@ -148,6 +165,9 @@ label {
   
 }
 
+.contact-section button:hover{
+  transform:scale(1.1);
+}
 .contact-section button:active{
   transform:scale(0.9);
 }
