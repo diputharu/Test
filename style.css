@@ -41,12 +41,20 @@ nav {
   width: 200px;
   height: 60px;
 }
+
+.nav-bar img:hover{
+  transform:scale(1.1);
+}
 .second-box {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   padding: 0 10px 0 0;
+}
+
+.second-box a:hover{
+  transform:scale(1.1);
 }
 
 .nav-bar input,
@@ -68,6 +76,9 @@ label {
   width: 70%;
   height: 70%;
   border-radius: 10px;
+}
+.hero_section img:hover{
+  transform:scale(1.1);
 }
 
 .service-section {
@@ -102,6 +113,9 @@ label {
   display: grid;
   place-items: center;
 }
+.service-section div:hover{
+  transform:scale(1.01);
+}
 
 .contact-section #fd {
   background-color: rgb(207, 201, 201);
@@ -124,6 +138,9 @@ label {
   gap: 20px;
 }
 
+.contact-section h3:hover{
+  transform:scale(1.1);
+}
 .contact-section input {
   width: 600px;
   height: 50px;
@@ -144,94 +161,16 @@ label {
   font-size: 15px;
   background-color: green;
   border-radius: 10px;
-}
-.contact-section button:active {
-  border: 5px solid black;
-}
-
-
-.login-section{
-  width:100%;
-  height:90vh;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  margin-bottom:20px;
- 
-}
-.log-box {
-  width: 35%;
-  height:90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:15px;
-  font-size:20px;
-  background-color: rgb(37, 150, 190);
-  padding:10px 0 10px 0;
-}
-
-.login-section #rem-box {
-  display: flex;
-}
-.login-section #log-para{
-  width:30%;
-  height:50px;
-font-size:120%;
-background-color: rgb(66, 161, 211);
-display:grid;
-place-items:center;
-border-radius:10px;
-margin-bottom:25px;
-}
-.login-section input{
-  width:70%;
-  height:55px;
-  border-radius:10px;
-  border:0;
-}
-.login-section input:focus{
-  outline:none;
-}
-.login-section #chk{
-  width:8%;
   
 }
-#rem-box{
-  width:100%;
-  height:auto;
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size:20px;
-  gap:10px;
-}
- .login-section #rem-box div{
-  width:50%;
-  height:30%;
-  display:flex;
-  align-items:center;
-  justify-content:flex-start;
-  gap:3%;
-  padding-left:2%;
-}
-#rem-box p ,#rem-box a {
-  font-size:75%;
-}
 
-.log-box button{
-  width:25%;
-  height:10%;
-  border-radius:15px;
-  background-color:green;
+.contact-section button:hover{
+  transform:scale(1.1);
 }
-.log-box button:focus{
-  border:0;
-}
-.log-box button:active{
+.contact-section button:active{
   transform:scale(0.9);
 }
+
 
 .main-footer {
   width: 100%;
